@@ -20,8 +20,8 @@
             <button type="button" onclick="validateLogin()">Masuk</button>
         </form>
         <div id="errorMessage" class="error"></div>
-    </div>
-    '?>
+    </div>'
+    ?>
     <script src="login.js"></script>
 </body>
 </html>
