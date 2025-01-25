@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <?php echo'
     <div class="login-container">
         <h2>Login</h2>
         <form id="loginForm">
@@ -19,8 +20,8 @@
             <button type="button" onclick="validateLogin()">Masuk</button>
         </form>
         <div id="errorMessage" class="error"></div>
-    </div>
-
+    </div>'
+    ?>
     <script src="login.js"></script>
 </body>
 </html>
